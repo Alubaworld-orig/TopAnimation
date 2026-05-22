@@ -1,5 +1,6 @@
 rootProject.name = 'TopAnimation'
 
+include ':src:common'
 include ':1.16.5-forge'
 include ':1.17-forge'
 include ':1.18-forge'

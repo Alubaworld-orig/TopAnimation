@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.topanimation'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+}
+
+tasks.register('buildAllMods') {
+    doLast {
+        println 'Building all TopAnimation mods...'
+    }
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'com.topanimation.core.AnimationManager',
+            'Implementation-Title': 'TopAnimation',
+            'Implementation-Version': project.version
+        )
+    }
+}
