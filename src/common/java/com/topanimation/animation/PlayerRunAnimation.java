@@ -6,26 +6,24 @@ public class PlayerRunAnimation extends Animation {
     private float armSwing;
     private float legSwing;
     private float bobbing;
+    private float bodyLean;
     
     public PlayerRunAnimation() {
-        super(0.6f); // Более быстрый цикл
+        super(0.6f);
     }
     
     @Override
     protected void onUpdate(float deltaTime) {
         float progress = getProgress();
         
-        // Быстрое качание рук
         armSwing = (float) Math.sin(progress * Math.PI * 2) * 60f;
-        
-        // Быстрая ходьба ног
         legSwing = (float) Math.sin(progress * Math.PI * 2) * 45f;
-        
-        // Прыгающее движение туловища
         bobbing = (float) Math.abs(Math.sin(progress * Math.PI * 2)) * 0.2f;
+        bodyLean = (float) Math.sin(progress * Math.PI * 2) * 3f;
     }
     
     public float getArmSwing() { return armSwing; }
     public float getLegSwing() { return legSwing; }
     public float getBobbing() { return bobbing; }
+    public float getBodyLean() { return bodyLean; }
 }

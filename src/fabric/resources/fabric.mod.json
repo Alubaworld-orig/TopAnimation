@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "topanimation",
+  "name": "TopAnimation",
+  "version": "1.0.0",
+  "description": "Realistic Animations for Minecraft - Sword Combat, Player Movement, and Water Physics",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.topanimation.fabric.TopAnimationFabric"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.x"
+  }
+}

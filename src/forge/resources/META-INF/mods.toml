@@ -1,0 +1,18 @@
+{
+  "modListVersion": 2,
+  "mods": [
+    {
+      "modid": "topanimation",
+      "name": "TopAnimation",
+      "description": "Realistic Animations for Minecraft - Sword Combat, Player Movement, and Water Physics",
+      "version": "1.0.0",
+      "displayURL": "https://github.com/Alubaworld-orig/TopAnimation",
+      "logoFile": "",
+      "credits": "Alubaworld-orig",
+      "authors": [
+        "Alubaworld-orig"
+      ],
+      "requiredMods": []
+    }
+  ]
+}

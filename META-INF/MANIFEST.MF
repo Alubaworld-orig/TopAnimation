@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+MixinConnector: com.topanimation.core.MixinConnector
+Implementation-Title: TopAnimation
+Implementation-Version: 1.0.0
+Implementation-Vendor: Alubaworld-orig
+Specification-Title: TopAnimation
+Specification-Version: 1.0.0
+Specification-Vendor: Alubaworld-orig
+Main-Class: com.topanimation.core.AnimationManager

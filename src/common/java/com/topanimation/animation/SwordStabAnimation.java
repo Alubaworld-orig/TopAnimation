@@ -7,7 +7,7 @@ public class SwordStabAnimation extends Animation {
     private float rotationX;
     
     public SwordStabAnimation() {
-        super(0.4f); // 400ms для быстрого укола
+        super(0.4f);
     }
     
     @Override
@@ -15,12 +15,10 @@ public class SwordStabAnimation extends Animation {
         float progress = getProgress();
         
         if (progress < 0.4f) {
-            // Толчок вперед
             float phase = progress / 0.4f;
             posZ = 1.0f * phase;
             rotationX = -20f * phase;
         } else {
-            // Возв��ат
             float phase = (progress - 0.4f) / 0.6f;
             posZ = 1.0f - 1.0f * phase;
             rotationX = -20f + 20f * phase;
