@@ -20,7 +20,7 @@ public class SwordStabAnimation extends Animation {
             posZ = 1.0f * phase;
             rotationX = -20f * phase;
         } else {
-            // Возврат
+            // Возв��ат
             float phase = (progress - 0.4f) / 0.6f;
             posZ = 1.0f - 1.0f * phase;
             rotationX = -20f + 20f * phase;

@@ -59,5 +59,5 @@ TopAnimation/
 ## Автор
 Alubaworld-orig
 
-## Лиц��нзия
+## Лицензия
 MIT
