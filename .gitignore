@@ -1,0 +1,22 @@
+# Build
+build/
+out/
+dist/
+.gradle/
+*.jar
+*.jar.txt
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft
+run/
+.minecraft/

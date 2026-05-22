@@ -1,0 +1,17 @@
+rootProject.name = 'TopAnimation'
+
+include ':1.16.5-forge'
+include ':1.17-forge'
+include ':1.18-forge'
+include ':1.19-forge'
+include ':1.20-forge'
+include ':1.21-forge'
+include ':1.26.1-forge'
+
+include ':1.16.5-fabric'
+include ':1.17-fabric'
+include ':1.18-fabric'
+include ':1.19-fabric'
+include ':1.20-fabric'
+include ':1.21-fabric'
+include ':1.26.1-fabric'
